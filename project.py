@@ -57,29 +57,7 @@ is_dead= True
 print(type(is_dead))
 print(3<2)
 
-#atıl samancıoğlı python exam-1
-
-my_string = "James Hetfield"
-# 1) Aşağıdaki String'in 5. harfini my_letter isimli bir değişkene atayınız.
-
-#Cevap: 
-my_letter="s"
-
-# Aşağıdaki String'in 5. ve 8. karakteri arasındaki tüm harflerini yazdırınız (5 ve 8 dahil)
-my_new_string = "QuentinTarantino"
-
-#Cevap2
-print(my_new_string[4:8])
-
-# 1) Aşağıdaki işlemin sonucu hangi veri tipinde olacaktır?
-a=3 + 10.2 + 50
-print(type(a))
-
-# 2) Aşağıdaki işlemin sonucu kaçtır?
-x= 5 + 8 * 12 
-print(x)
-
-#if-elif-else-1
+#loops
 
 araba_markasi="Volvo"
 
