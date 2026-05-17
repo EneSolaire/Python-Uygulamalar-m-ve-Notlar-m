@@ -57,7 +57,8 @@ is_dead= True
 print(type(is_dead))
 print(3<2)
 
-#loops
+
+#if-elif-else-1
 
 araba_markasi="Volvo"
 
@@ -82,3 +83,33 @@ for yas1 in liste_1:
     print("Enes", yas1)
 for yas2 in liste_2:
     print("Aydın", yas2)
+
+# for loops-2
+
+sayilar=[1,3,5,7,9,12,19,21]
+
+#first implementation
+
+for numbers in sayilar:
+    if numbers%3==0:
+        print(numbers)
+        
+# second implementation
+
+for numbers in sayilar:
+    if numbers%2==1:
+        print(numbers**2)
+
+#third for loop implementation
+
+string_3= "enes"
+
+# last example
+
+
+for letters in string_3:
+    print(letters.upper())
+list_4=[(1,2),(6,7)]
+
+for (x,y) in list_4:
+    print(y)
