@@ -103,12 +103,12 @@ for numbers in sayilar:
 #third for loop implementation
 
 string_3= "enes"
-
+for letters in string_3:
+    print(letters.upper())
 # last example
 
 
-for letters in string_3:
-    print(letters.upper())
+
 list_4=[(1,2),(6,7)]
 
 for (x,y) in list_4:
