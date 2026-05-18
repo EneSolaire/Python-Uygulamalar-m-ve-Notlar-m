@@ -1,3 +1,6 @@
+#importing modules
+import random
+from random import randint
 #input
 
 r = int(input("yarıçap girin:"))
@@ -105,11 +108,33 @@ for numbers in sayilar:
 string_3= "enes"
 for letters in string_3:
     print(letters.upper())
+    
 # last example
-
-
-
 list_4=[(1,2),(6,7)]
 
 for (x,y) in list_4:
     print(y)
+
+list_6=[1,2,3,4,5]
+
+#while loops
+
+a=8
+while a<=7:
+    print(a+1)
+else:
+    print(a**2)
+    
+#enumerate function
+
+for num3 in list_6:
+    print(enumerate(list_6))
+
+print(randint(0,4))
+
+#zip
+
+list_7=["Ali","Yunus"]
+list_8=[18,18]
+
+print(zip(list_7,list_8))
