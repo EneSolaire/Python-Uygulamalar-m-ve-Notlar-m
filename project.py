@@ -138,3 +138,42 @@ list_7=["Ali","Yunus"]
 list_8=[18,18]
 
 print(zip(list_7,list_8))
+
+#definition
+
+def eok():
+    print("Enes")
+    print("Ömer")
+    print("Kara")
+eok()
+
+# input in definitions
+
+def eok2(soyadı):
+    print("Hoşgeldniz ")
+    print(soyadı)
+eok2("enes")
+
+# summation in definition
+
+def sum(sum1,sum2):
+    number= sum1+ sum2
+    print(number)
+sum(3,6)
+
+def selam():
+    print("merhaba enes " * 54)
+
+for i in range(1):
+    selam()
+# yaş hesaplama
+def enes_yas():
+    return 2026-2006
+
+sonuc= enes_yas()
+print(sonuc)
+#importla datetime
+def su_anki_dakika():
+    import datetime
+    return datetime.datetime.now().minute
+print(su_anki_dakika())
