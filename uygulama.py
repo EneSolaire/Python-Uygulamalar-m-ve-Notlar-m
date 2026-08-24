@@ -1,5 +1,4 @@
 import random
-#enes ömer kara uygulaması
 
 def myfunc():
     x=int(input("Enter a number: "))
@@ -8,14 +7,12 @@ def myfunc():
 
 myfunc()
 
-#sadık turan uygulaması
 
 def myfunc2(text,adet):
     return text * adet
 print(myfunc2("hello world ", 3))
 
 
-#enes ömer kara uygulaması
 
 def hesapla(kısa,uzun):
     alan=kısa*uzun
@@ -26,7 +23,6 @@ alan,cevre=hesapla(5,10)
 print("Alan:", alan)
 print("Çevre:", cevre)
 
-#sadık turan uygulaması
 
 def hesapla(kısa,uzun):
     alan=kısa*uzun
